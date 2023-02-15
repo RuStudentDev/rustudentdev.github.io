@@ -28,5 +28,6 @@ jobs:
         with:
           target_branch: build 
           build_dir: dist
+          domain: rustudent.dev
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
